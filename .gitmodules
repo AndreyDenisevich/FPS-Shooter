@@ -1,7 +1,6 @@
 [submodule "HECSUnityStart"]
 	path = HECSUnityStart
 	url = https://github.com/Brightori/HECSUnityStart
-[submodule "HECSFramework"]
-	path = HECSFramework
+[submodule "Assets/HECSFramework"]
+	path = Assets/HECSFramework
 	url = https://github.com/Brightori/HECSUnityStart
-	branch = next
