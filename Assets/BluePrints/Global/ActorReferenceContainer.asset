@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb991fc149f5fc4caca79459e69ab47, type: 3}
+  m_Name: ActorReferenceContainer
+  m_EditorClassIdentifier: 
+  holder:
+    components: []
+    systems: []
+    Parent: {fileID: 11400000}
+  containerIndex: 0
+  References:
+  - {fileID: 11400000, guid: 955d13df42d60444b8dd70fea0c078ea, type: 2}
