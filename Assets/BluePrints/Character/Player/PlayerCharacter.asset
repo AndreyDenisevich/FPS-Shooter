@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379295890174cec4b8e7a0ac2e17af01, type: 3}
+  m_Name: PlayerCharacter
+  m_EditorClassIdentifier: 
+  holder:
+    components:
+    - {fileID: 2377088878356188905}
+    - {fileID: 6614997411377303403}
+    - {fileID: 4798925258877645084}
+    systems:
+    - {fileID: 2922457140672783159}
+    Parent: {fileID: 11400000}
+  containerIndex: -797756320
+--- !u!114 &2377088878356188905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfde3d4c6c0ff4540913324d497a1832, type: 3}
+  m_Name: InputListenerTagComponent
+  m_EditorClassIdentifier: 
+--- !u!114 &2922457140672783159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cf91cb6dddd5cf43b791f0ff7cafaa8, type: 3}
+  m_Name: PlayerCharacterMovementSystem
+  m_EditorClassIdentifier: 
+--- !u!114 &4798925258877645084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a852833d2e1977346bea660878b0aeb1, type: 3}
+  m_Name: MovementSpeedComponentBluePrint
+  m_EditorClassIdentifier: 
+  component:
+    Speed: 5
+--- !u!114 &6614997411377303403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cef781c0436ef43b46d6c2aae67409, type: 3}
+  m_Name: UnityRigidbodyComponentBluePrint
+  m_EditorClassIdentifier: 
+  component:
+    Rigidbody: {fileID: 0}
